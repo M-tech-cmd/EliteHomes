@@ -1,73 +1,131 @@
-# Welcome to your Lovable project
+📦 EliteHomes — Modern Real Estate Web App
 
-## Project info
+A sleek, luxury-styled property listing website inspired by platforms like Zillow.
 
-**URL**: https://lovable.dev/projects/477304ce-1217-4361-a0f6-b0e3f8aec969
+🚀 Overview
 
-## How can I edit this code?
+EliteHomes is a fully responsive, modern real-estate website built with React, Bun, and modern UI techniques.
+It showcases premium properties with a clean layout, smooth animations, and a professional browsing experience suitable for agencies, brokers, and real estate startups.
 
-There are several ways of editing your application.
+The landing page includes:
+✔️ Hero section with call-to-action
+✔️ Featured listings
+✔️ Modern navbar & footer
+✔️ Property categories
+✔️ Contact/Inquiry section
+✔️ Responsive, mobile-first layout
+✔️ Smooth scroll & animations
 
-**Use Lovable**
+🛠️ Tech Stack
+Frontend
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/477304ce-1217-4361-a0f6-b0e3f8aec969) and start prompting.
+React 18
 
-Changes made via Lovable will be committed automatically to this repo.
+Bun (for faster installs & dev server)
 
-**Use your preferred IDE**
+Vite or Bun’s native bundler (depending on setup)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tailwind CSS (recommended styling)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Framer Motion / AOS (for animations)
 
-Follow these steps:
+React Router (navigation)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tools & Dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+ESLint & Prettier (code quality)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Heroicons / Lucide icons
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Custom reusable components
 
-**Edit a file directly in GitHub**
+📁 Project Structure
+elitehomes/
+ ├─ public/               # Static assets
+ ├─ src/
+ │   ├─ components/       # Reusable UI components
+ │   ├─ pages/            # Route pages (Home, Listings, Contact,...)
+ │   ├─ assets/           # Images & icons
+ │   ├─ hooks/            # Custom hooks
+ │   ├─ data/             # Property JSON or mock API
+ │   ├─ App.jsx           
+ │   ├─ main.jsx
+ ├─ bun.lockb            # Bun lockfile
+ ├─ package.json         
+ └─ README.md
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+⚙️ Installation & Setup
+1️⃣ Clone the project
+git clone https://github.com/yourusername/elitehomes.git
+cd elitehomes
 
-**Use GitHub Codespaces**
+2️⃣ Install dependencies using Bun
+bun install
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+3️⃣ Start development server
+bun dev
 
-## What technologies are used for this project?
+4️⃣ Build for production
+bun run build
 
-This project is built with:
+5️⃣ Preview production build
+bun run preview
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+✨ Features
+🏠 Modern Landing Page
 
-## How can I deploy this project?
+Beautiful hero section with luxury real-estate aesthetics.
 
-Simply open [Lovable](https://lovable.dev/projects/477304ce-1217-4361-a0f6-b0e3f8aec969) and click on Share -> Publish.
+🏡 Featured Properties
 
-## Can I connect a custom domain to my Lovable project?
+Highlight premium listings with images, prices & quick details.
 
-Yes, you can!
+🧭 Smooth Navigation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Clean navbar with smooth scrolling and mobile menu.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📱 Fully Responsive
+
+Optimized for all devices — phones, tablets, desktops.
+
+🎨 Professional UI
+
+Elegant design, spacing, typography, and high-end look.
+
+⚡ Fast Performance
+
+Thanks to Bun, the app builds and loads extremely fast.
+
+🚧 Future Improvements
+
+✔ Add full property details pages
+✔ Integrate backend (Node.js / Express / Firebase)
+✔ Add map search (Google Maps API)
+✔ Add agent profiles
+✔ Add admin dashboard for managing properties
+
+🤝 Contributions
+
+Pull requests are welcome!
+For major changes, open an issue to discuss what you’d like to improve.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+📞 Developer
+
+Built with ❤️ by Emmanuel Gema Kimani
+M-tech-cmd
+
+🔗 Social Links (as requested):
+
+LinkedIn: linkedin.com/in/manuel-kim-6b1472382
+
+X (Twitter): x.com/M_tech_cmd
+
+Instagram: instagram.com/m_tech_cmd
+
+Facebook Page: facebook.com/M-tech-cmd
+
+Email: kimaniemma20@gmail.com
