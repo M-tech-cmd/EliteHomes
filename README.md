@@ -1,131 +1,161 @@
-📦 EliteHomes — Modern Real Estate Web App
+📦 **EliteHomes — Modern Real Estate Web App**
 
 A sleek, luxury-styled property listing website inspired by platforms like Zillow.
 
-🚀 Overview
+---
 
-EliteHomes is a fully responsive, modern real-estate website built with React, Bun, and modern UI techniques.
-It showcases premium properties with a clean layout, smooth animations, and a professional browsing experience suitable for agencies, brokers, and real estate startups.
+## 🚀 Overview
 
-The landing page includes:
-✔️ Hero section with call-to-action
+**EliteHomes** is a fully responsive, modern real-estate website built with **React**, **Bun**, and clean UI/UX principles.
+
+It showcases premium properties with a luxury aesthetic, smooth animations, and a professional browsing experience—perfect for real estate agencies, brokers, and startups.
+
+### ⭐ The landing page includes:
+
+✔️ Hero section with CTA
 ✔️ Featured listings
 ✔️ Modern navbar & footer
 ✔️ Property categories
 ✔️ Contact/Inquiry section
-✔️ Responsive, mobile-first layout
+✔️ Responsive, mobile‑first layout
 ✔️ Smooth scroll & animations
 
-🛠️ Tech Stack
-Frontend
+---
 
-React 18
+## 🛠️ Tech Stack
 
-Bun (for faster installs & dev server)
+### **Frontend**
 
-Vite or Bun’s native bundler (depending on setup)
+* React 18
+* Bun (for faster installs & dev server)
+* Vite or Bun’s native bundler
+* Tailwind CSS (recommended)
+* Framer Motion / AOS (for animations)
+* React Router
 
-Tailwind CSS (recommended styling)
+### **Tools & Dependencies**
 
-Framer Motion / AOS (for animations)
+* ESLint & Prettier
+* Heroicons / Lucide icons
+* Custom reusable UI components
 
-React Router (navigation)
+---
 
-Tools & Dependencies
+## 📁 Project Structure
 
-ESLint & Prettier (code quality)
-
-Heroicons / Lucide icons
-
-Custom reusable components
-
-📁 Project Structure
+```
 elitehomes/
  ├─ public/               # Static assets
  ├─ src/
  │   ├─ components/       # Reusable UI components
- │   ├─ pages/            # Route pages (Home, Listings, Contact,...)
+ │   ├─ pages/            # Pages (Home, Listings, Contact,...)
  │   ├─ assets/           # Images & icons
  │   ├─ hooks/            # Custom hooks
  │   ├─ data/             # Property JSON or mock API
- │   ├─ App.jsx           
+ │   ├─ App.jsx
  │   ├─ main.jsx
- ├─ bun.lockb            # Bun lockfile
- ├─ package.json         
+ ├─ bun.lockb             # Bun lock file
+ ├─ package.json
  └─ README.md
+```
 
-⚙️ Installation & Setup
-1️⃣ Clone the project
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the project
+
+```bash
 git clone https://github.com/yourusername/elitehomes.git
 cd elitehomes
+```
 
-2️⃣ Install dependencies using Bun
+### 2️⃣ Install dependencies using Bun
+
+```bash
 bun install
+```
 
-3️⃣ Start development server
+### 3️⃣ Start development server
+
+```bash
 bun dev
+```
 
-4️⃣ Build for production
+### 4️⃣ Build for production
+
+```bash
 bun run build
+```
 
-5️⃣ Preview production build
+### 5️⃣ Preview production build
+
+```bash
 bun run preview
+```
 
-✨ Features
-🏠 Modern Landing Page
+---
 
-Beautiful hero section with luxury real-estate aesthetics.
+## ✨ Features
 
-🏡 Featured Properties
+### 🏠 Modern Landing Page
 
-Highlight premium listings with images, prices & quick details.
+Beautiful hero banner with premium real‑estate visuals.
 
-🧭 Smooth Navigation
+### 🏡 Featured Properties
 
-Clean navbar with smooth scrolling and mobile menu.
+Highlight premium listings with images, prices & short details.
 
-📱 Fully Responsive
+### 🧭 Smooth Navigation
 
-Optimized for all devices — phones, tablets, desktops.
+Clean navbar, scroll animations & mobile menu.
 
-🎨 Professional UI
+### 📱 Fully Responsive
 
-Elegant design, spacing, typography, and high-end look.
+Optimized for phones, tablets, laptops & desktops.
 
-⚡ Fast Performance
+### 🎨 Professional UI
 
-Thanks to Bun, the app builds and loads extremely fast.
+Luxury aesthetic, proper spacing, sharp typography.
 
-🚧 Future Improvements
+### ⚡ Fast Performance
 
-✔ Add full property details pages
-✔ Integrate backend (Node.js / Express / Firebase)
-✔ Add map search (Google Maps API)
-✔ Add agent profiles
-✔ Add admin dashboard for managing properties
+Powered by Bun for lightning‑fast development.
 
-🤝 Contributions
+---
+
+## 🚧 Future Improvements
+
+✔ Full property details pages
+✔ Backend integration (Node.js / Express / Firebase)
+✔ Map search (Google Maps API)
+✔ Agent profiles
+✔ Admin dashboard for managing properties
+
+---
+
+## 🤝 Contributions
 
 Pull requests are welcome!
-For major changes, open an issue to discuss what you’d like to improve.
+For major changes, open an issue first to discuss improvements.
 
-📄 License
+---
 
-This project is licensed under the MIT License.
+## 📄 License
 
-📞 Developer
+This project is licensed under the **MIT License**.
 
-Built with ❤️ by Emmanuel Gema Kimani
-M-tech-cmd
+---
 
-🔗 Social Links (as requested):
+## 📞 Developer
 
-LinkedIn: linkedin.com/in/manuel-kim-6b1472382
+Built with ❤️ by **Emmanuel Gema Kimani**
+**M‑tech‑cmd**
 
-X (Twitter): x.com/M_tech_cmd
+### 🔗 Social Links
 
-Instagram: instagram.com/m_tech_cmd
-
-Facebook Page: facebook.com/M-tech-cmd
-
-Email: kimaniemma20@gmail.com
+* **LinkedIn:** linkedin.com/in/manuel-kim-6b1472382
+* **X (Twitter):** x.com/M_tech_cmd
+* **Instagram:** instagram.com/m_tech_cmd
+* **Facebook Page:** facebook.com/M-tech-cmd
+* **Email:** [kimaniemma20@gmail.com](mailto:kimaniemma20@gmail.com)
